@@ -1,0 +1,9 @@
+    #try:
+    #json_list = request.get_json(force=True)
+
+    object_list=[]
+    mailFrom = json_list['mailFrom']
+    mailTo = json_list['mailTo']
+    mailCc = json_list['mailCc']
+    mailBcc = json_list['mailBcc']
+    model = json_list['model']
