@@ -17,7 +17,7 @@ mail = Mail(app)
 @app.route("/sendMail/",methods=['GET'])
 def sendMail():
     try:
-        dict = {'firstName':'Amit','lastName':'Yadav','bodyContent':'breach','location':'Mumbai','signature':'capgemini.com'}
+        dict = {'firstName':'Amit','lastName':'Yadav','bodyContent':'breach','location':'Mumbai','signature':'ini.com'}
         msg = Message('Hello', sender = 'abc@gmail.com', recipients = ['c@gmail.com'],cc=['d@gmail.com'],bcc=['e@outlook.com'])
         msg.body = "Hello Flask message sent from Flask-Mail"
         print("entering rendering template")
