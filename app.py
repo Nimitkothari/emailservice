@@ -18,7 +18,7 @@ mail = Mail(app)
 def sendMail():
     try:
         dict = {'firstName':'Amit','lastName':'Yadav','bodyContent':'breach','location':'Mumbai','signature':'capgemini.com'}
-        msg = Message('Hello', sender = 'connectedcontaineralerts@gmail.com', recipients = ['nimit.kothari08@gmail.com'],cc=['kotharinimit8@gmail.com'],bcc=['kotharinimit8@outlook.com'])
+        msg = Message('Hello', sender = 'abc@gmail.com', recipients = ['c@gmail.com'],cc=['d@gmail.com'],bcc=['e@outlook.com'])
         msg.body = "Hello Flask message sent from Flask-Mail"
         print("entering rendering template")
         print('pwd',os.getcwd())
